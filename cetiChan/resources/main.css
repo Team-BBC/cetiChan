@@ -1,0 +1,39 @@
+.content{
+    background-color: white;
+    width: 35%;
+    height: 60%;
+    float: left;
+    color: black;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+}
+.contento{
+    background-color: white;
+    width: 35%;
+    height: 60%;
+    float: left;
+    color: black;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+}
+.texto{
+    text-align: center;
+    margin-top: 5%;
+    font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+    font-size:25px ;
+}
+.contboton{
+    text-align: center;
+}
+.bg{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+}
