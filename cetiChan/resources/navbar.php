@@ -3,7 +3,7 @@
 <!--main navbar-->
 <?php
   $home = '/dashboard/cetiChan/index.php';
-  $login ='/dashboard/cetiChan/register.php';
+  $login ='/dashboard/cetiChan/login.php';
   $createpost = '/dashboard/cetiChan/views/newPost.php';
   //  $bell =;
   //  $settings=;
@@ -36,11 +36,13 @@
             
           </li>
         </div>
+        <!--eliminacion de la campana
         <div class="p-2 bd-highlight">
           <li class="nav-item col px-md-5">
             <a href="" class="nav-link"> <i data-feather="bell"></i></a>
           </li>
         </div>
+        -->
         <div class="p-2 bd-highlight">
           <li class="nav-item col px-md-auto">
             <a href="" class="nav-link"> <i data-feather="sliders"></i></a>
