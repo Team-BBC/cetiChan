@@ -49,6 +49,7 @@ CREATE TABLE `usuarios` (
   `password` varchar(35) COLLATE utf8_bin NOT NULL,
   `email` varchar(70) COLLATE utf8_bin NOT NULL,
   `birthdate` date NOT NULL
+  'level' int(8) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --

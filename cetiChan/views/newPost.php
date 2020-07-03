@@ -30,5 +30,6 @@
                 </div>
             </form>
         </div>
+        <div><?php require_once "resources/footer.php"?></div>
     </body>
 </html>

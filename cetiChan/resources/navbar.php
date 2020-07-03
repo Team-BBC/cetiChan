@@ -2,8 +2,8 @@
 
 <!--main navbar-->
 <?php
-  $home = '/dashboard/cetiChan/index.php';
-  $login ='/dashboard/cetiChan/login.php';
+  $home = '/dashboard/cetiChan/cetiChan/index.php';
+  $login ='/dashboard/cetiChan/cetiChan/login.php';
   $createpost = '/dashboard/cetiChan/views/newPost.php';
   //  $bell =;
   //  $settings=;

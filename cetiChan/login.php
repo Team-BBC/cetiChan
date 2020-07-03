@@ -26,19 +26,19 @@
                     <form name="form1" id="form1" method="POST">
                         <div class="form-group mt-4" >
                             <input type="text" class="form-control w-75 mx-auto" name="usuario" id="usuario" placeholder="Nombre de usuario">
-                        </div> 
+                            </div> 
                         <div class="form-group mt-4">
                             <input type="password" class="form-control w-75 mx-auto" name="pass" id="pass" placeholder="contraseña">
                         </div> 
                         
-                        <div class="contboton" >
+                        <div class=" contboton " >
                             <button type="submit" class="btn btn-dark mt-4">Iniciar Sesion</button>
                         </div> 
                     </form>
                     <form method="post">
-                        <div class="contboton d-flex flex-row-reverse bd-highlight">
+                        <div class=" contboton  bd-highlight ">
                             <div class="p-2 bd-highlight">
-                                <input type="button" name="btnRegistrar" onclick="window.location='register.php'" class="btn btn-dark" value="Registrar">
+                                <input type="button" name="btnRegistrar" onclick="window.location="register.php"" class="btn btn-dark" value="Registrar">
                             </div>
                         </div>
                     </form>
@@ -46,7 +46,7 @@
             </div>';
             }
         ?>
-        <div class="content" >
+       <!-- <div class="content" >
             <div class="texto">Login</div>
                 <form name="form1" id="form1" method="POST">
                     <div class="form-group mt-4" >
@@ -55,7 +55,7 @@
                     <div class="form-group mt-4">
                         <input type="password" class="form-control w-75 mx-auto" name="pass" id="pass" placeholder="contraseña">
                     </div> 
-                    
+
                     <div class="contboton" >
                         <button type="submit" class="btn btn-dark mt-4">Iniciar Sesion</button>
                     </div> 
@@ -68,11 +68,11 @@
                     </div>
                 </form>
             </div>
-        </div>
+        </div>-->
         <div>
-            <footer class="footer py-3 bg-white mb-0" style="clear:both;">
-                <span class="text-muted">Foro CetiChan</span>
-            </footer>
+        <?php
+                require_once "resources/footer.php";
+            ?>
         </div>
     </body>
 </html>
