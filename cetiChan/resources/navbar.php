@@ -1,16 +1,8 @@
-
-
-<!--main navbar-->
-<?php
-  $home = '/dashboard/cetiChan/cetiChan/index.php';
-  $login ='/dashboard/cetiChan/cetiChan/login.php';
-  $createpost = '/dashboard/cetiChan/views/newPost.php';
-  //  $bell =;
-  //  $settings=;
-?>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand pb-3" href="<?php $home?>">
-    <img src="localhost:8080/dashboard/resources/manetologo1.png" width="30" class="d-inline-block align-top" height="30" alt="" >
+  <a class="navbar-brand pb-3" href="index.php">
+    <img src="resources/manetologo1.png" width="30" class="d-inline-block align-top" height="30" alt="" >
     CetiChan
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="				navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,17 +15,13 @@
       <div class="d-flex flex-row bd-highlight">
         <div class="p-2 bd-highlight">
           <li class="nav-item">
-            <?php
-              echo '<a class="nav-link" href='.$home.'>Home <span class="sr-only">(current)</span></a>'
-            ?>
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>'
           </li>
         </div>
         <div class="p-2 bd-highlight">
           <li class="nav-item">
-            <?php
-              echo '<a class="nav-link" href='.$createpost.'>Crear Post</a>'
-            ?>
-            
+            <a class="nav-link" href="newPost.php">Crear Post</a>'
+                        
           </li>
         </div>
         <!--eliminacion de la campana
@@ -45,15 +33,12 @@
         -->
         <div class="p-2 bd-highlight">
           <li class="nav-item col px-md-auto">
-            <a href="" class="nav-link"> <i data-feather="sliders"></i></a>
+            <!--<a href="" class="nav-link"> <i data-feather="sliders"></i></a>-->
           </li>
         </div>
         <div class="p-2 bd-highlight">
           <li class="nav-item col px-md-auto">
-            <?php
-              echo '<a class="nav-link" href='.$login.'>Login</a>'
-            ?>
-            
+            <a class="nav-link" href="login.php">Login</a>'
           </li>
         </div>
       </div>
@@ -64,7 +49,3 @@
     </form>
   </div>
 </nav>
-
-<script>
-  feather.replace()
-</script>
