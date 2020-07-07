@@ -11,6 +11,20 @@
     border-color: transparent;
     border-radius: 10px;
 }
+.contentCenter{
+    background-color: white;
+    width: 35%;
+    height: 60%;
+    color: black;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    align-items: center;
+}
+
 .contento{
     background-color: white;
     width: 35%;
